@@ -22,4 +22,4 @@ select * from agents order by city, agent_name;
 -- Fix the bug. Should show the 3 cheapest tours, cheapest first (if prices are equal, lower tour_id first).
 SELECT * FROM tours
 ORDER BY price_usd, tour_id
-LIMIT 3;`
+LIMIT 3;`lesson04-calculations-and-case.sql
